@@ -1,0 +1,28 @@
+# môi trường / hệ thống
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+~$*
+
+# dataset
+VisDrone2019-DET-train/
+VisDrone2019-DET-val/
+VisDrone2019-DET-test-dev/
+VisDrone2019-DET-test-challenge/
+datasets/
+video
+
+# báo cáo, slide
+*.docx
+*.pptx
+*.pdf
+report/
+presentation/
+tmp/
+
+# kết quả huấn luyện, trọng số
+runs/
+*.pt
+*.engine
+*.onnx
